@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%; 
+    /* 1rem = 16px (User Agent, padrão do navegador)
+    16px == 100%
+    10px == ?
+    62.5% 
+
+    Assim, conseguimos tranformar algo de 24px em 2.4rem, 500px em 50rem e a vida fica mais fácil :) 
+    */
+}

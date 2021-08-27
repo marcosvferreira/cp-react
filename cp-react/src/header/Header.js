@@ -8,7 +8,7 @@ export default function Header() {
             <div class="header-main">
                 <nav class="content-menu">
                     <ul class="menu">
-                        <li>Nacional</li>
+                        <li id="national-button">Nacional</li>
                         <li>Business</li>
                         <li>Internacional</li>
                         <li class="bold">Saúde</li>

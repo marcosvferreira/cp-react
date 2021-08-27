@@ -7,19 +7,15 @@ import './App.css'
 
 export default function App() {
 
-    return(
+    return (
         <div class="container">
-            <Header/>
-            <div id="row"></div>
-            <Content/>
-            <div id="higher-share">
-                <span>24/08/2021 às 16h76 | Atualizado por Alechandre às 16h66</span>
-            </div>
-            <Post/>
+            <Header />
+            <Content />
+            <Post />
         </div>
 
     )
-    
+
 }
 // Sozinho a gente vai mais rápido, mas juntos a gente vai mais longe
 

@@ -1,19 +1,17 @@
 import React from 'react'
 
 
-
-
 export default function Header() {
 
     return(
         <header class="header-group">
             <div class="header-main">
                 <nav class="content-menu">
-                    <ul class="menu-header">
+                    <ul class="menu">
                         <li>Nacional</li>
                         <li>Business</li>
                         <li>Internacional</li>
-                        <li>Saúde</li>
+                        <li class="bold">Saúde</li>
                         <li>Tecnologia</li>
                         <li>Esporte</li>
                         <li>Entretenimento</li>

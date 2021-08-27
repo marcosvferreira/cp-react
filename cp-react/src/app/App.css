@@ -3,15 +3,78 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    text-decoration: none;
 }
-html {
-    font-size: 62.5%; 
-    /* 1rem = 16px (User Agent, padrão do navegador)
-    16px == 100%
-    10px == ?
-    62.5% 
 
-    Assim, conseguimos tranformar algo de 24px em 2.4rem, 500px em 50rem e a vida fica mais fácil :) 
-    */
+html {
+    --white: #fff;
+    --black: #000;
+    --grey: #262626;
+    --light-grey: #4D4D4D;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: var(--light-grey);
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+img {
+    width: 130px;
+}
+
+
+.header-group {
+    width: 1920px; 
+    height: 64px;
+    background-color: var(--white);
+
+}
+
+.header-main {
+    width: 1920px;
+    height: 48px;
+    margin-top: 16px;
+    background-color: var(--black);
+}
+
+/* max-width: 100%?; */
+
+.content-menu {
+    color: var(--white);
+
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+li {
+    padding: 5px 5px;
+}
+
+
+.post-exerpt {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 28px;
+
+}
+
+
+.p-riddle {
+    color: var(--grey);
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 28px;
 }

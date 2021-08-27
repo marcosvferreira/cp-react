@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from '../img/logo.svg'
-
+import Logo from '../../img/logo.svg'
+import './Post.css'
 
 export default function Post() {
 

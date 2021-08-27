@@ -1,0 +1,26 @@
+.post-content {
+    width: 50vw;
+    margin: 0 auto;
+}
+.riddle {
+    width: 640px;
+}
+
+.custom-logo {
+    width: 130px;
+    height: 87px;
+    float: right;
+    margin: 0;
+    position: static;
+    display: block;
+}
+
+.p-riddle {
+    color: var(--grey);
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 28px;
+    display: inline-block;
+    margin: 10px 10px;
+}

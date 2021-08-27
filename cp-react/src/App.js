@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../header/Header'
-import Content from '../content/Content'
-import Post from '../post/Post'
+import Header from './Componentes/Header/Header'
+import Content from './Componentes/Content/Content'
+import Post from './Componentes/Post/Post'
 import './App.css'
 
 

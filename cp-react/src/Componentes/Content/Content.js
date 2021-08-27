@@ -1,6 +1,6 @@
 import React from 'react'
-import Autor from '../img/author.png'
-
+import Autor from '../../img/author.png'
+import './Content.css'
 
 
 export default function Content() {

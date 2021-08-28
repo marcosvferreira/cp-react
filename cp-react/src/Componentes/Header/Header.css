@@ -1,0 +1,31 @@
+.bold {
+    font-weight: bold;
+}
+
+.header-group {
+    max-width: 1920px;
+    background-color: var(--white);
+}
+
+.header-main {
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    background-color: var(--black);
+}
+
+.content-menu {
+    width: 80vw;
+    margin: 0 auto;
+    color: var(--white);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+li {
+    display: flex;
+    padding: 0px 10px;
+}

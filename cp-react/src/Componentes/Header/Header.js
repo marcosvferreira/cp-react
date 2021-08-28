@@ -1,7 +1,12 @@
 import React from 'react'
 import './Header.css'
 
-export default function Header() {
+export default function Header(props) {
+
+    const categorias = props.menu.map(
+        (c,i)=>
+        <li key={i}>{c}</li>
+    )
 
     return(
         <header class="header-group">
@@ -9,20 +14,10 @@ export default function Header() {
                 <nav class="content-menu">
                     <ul class="menu">
                         <li id="national-button">Nacional</li>
-                        <li>Business</li>
-                        <li>Internacional</li>
-                        <li class="bold">Saúde</li>
-                        <li>Tecnologia</li>
-                        <li>Esporte</li>
-                        <li>Entretenimento</li>
-                        <li>Estilo</li>
-                        <li>Viagem e Gastronomia</li>
-                        <li>Newsletters</li>
-                        <li>Podcasts</li>
+                        <li>{categorias}</li>
                     </ul>
                 </nav>
             </div>
         </header>
-
     )
 }

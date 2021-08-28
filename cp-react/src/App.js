@@ -7,15 +7,23 @@ import './App.css'
 
 export default function App() {
 
+    const listaMenu = ["Business","Internacional","Saúde","Tecnologia","Esporte",
+    "Entretenimento","Estilo","Viagem e Gastronomia","Newsletters","Podcasts"]
+
+
     return (
         <div class="container">
-            <Header />
+            <Header menu={listaMenu} />
             <Content />
             <Post />
         </div>
 
     )
-
 }
-// Sozinho a gente vai mais rápido, mas juntos a gente vai mais longe
+
+
+//Feito por:
+//João Batista Souza (rm88298) e Marcos Vinicius Ferreira (rm86904)
+//
+//"Sozinho a gente vai mais rápido, mas juntos a gente vai mais longe"
 

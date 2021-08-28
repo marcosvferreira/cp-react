@@ -31,5 +31,6 @@
     list-style-type: none;
 }
 li {
-    padding: 0px 12px;
+    display: flex;
+    padding: 0px 10px;
 }

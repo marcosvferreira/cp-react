@@ -24,3 +24,9 @@
     display: inline-block;
     margin: 10px 10px;
 }
+.link{
+    display: inline;
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--blue);
+}

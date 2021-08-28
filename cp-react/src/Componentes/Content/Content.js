@@ -12,7 +12,7 @@ export default function Content() {
                     <header class="post-header">
                         <h1 class="post-title">Quais são os sintomas da variante Delta da Covid-19? Teste seus conhecimentos</h1>
                         <div>
-                            <p class="post-exerpt">A infecção causada pela variante Delta pode provoar sintomar diferentes da doençã causada pela linhagem original do novo coronavírus.</p>
+                            <p class="post-exerpt">A infecção causada pela variante Delta pode provoar sintomar diferentes da doença causada pela linhagem original do novo coronavírus.</p>
                         </div>
                         <div>
                             <section class="author-content">

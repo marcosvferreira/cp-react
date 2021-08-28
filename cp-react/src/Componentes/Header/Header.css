@@ -4,18 +4,13 @@
 
 .header-group {
     max-width: 1920px;
-    /* height: 64px; */
     background-color: var(--white);
 }
 
 .header-main {
     margin: 0 auto;
-    /* max-width: 1920px; */
-    /* height: 48px; */
     margin-top: 16px;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center;  */
     background-color: var(--black);
 }
 
